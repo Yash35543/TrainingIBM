@@ -1,0 +1,85 @@
+/* p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic ;
+    font-weight: 900;
+     text-decoration-line: underline  ;
+     text-decoration-color: aqua;
+     text-decoration-style:wavy ;
+     text-decoration-thickness: 5px ;
+     font-size: 34px;
+     letter-spacing: 2px;
+     word-spacing: 10px;
+
+} */
+/* 
+div{
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin:40px;
+    padding: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-image: url(canva.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: larger;
+    
+} */
+.main{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-evenly;
+    flex-wrap: wrap-reverse;
+
+}
+.card1{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+}
+.card2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.card3{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+
+ nav{
+            background-color:#333;
+            color:white;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 30px;
+        }
+
+        .logo{
+            font-size:24px;
+            font-weight:bold;
+        }
+
+        ul{
+            list-style:none;
+            display:flex;
+        }
+
+        ul li{
+            margin-left:20px;
+        }
+
+        ul li a{
+            text-decoration:none;
+            color:white;
+            font-size:18px;
+        }
+
+        ul li a:hover{
+            color:yellow;
+        }
