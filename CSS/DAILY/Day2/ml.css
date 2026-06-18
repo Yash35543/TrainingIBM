@@ -1,0 +1,127 @@
+/* .main{
+    
+    position: relative; 
+    background-color: yellow;
+    width: 200px;
+    height: 400px;
+    top: 100px;
+    left: 500px;
+    
+
+}
+.card1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 200px;
+    left: 100px;
+    z-index:1;
+    background-color: blue;
+
+    
+}
+.card2{
+    height: 80px;
+    width: 100px;
+    z-index: 2;
+    background-color: red;
+    
+}
+.card3{
+    height: 60px;
+    width: 100px;
+    z-index: 3;
+    background-color: orange;
+    
+}
+.card4{
+    height: 60px;
+    width: 100px;
+    z-index: 4;
+    background-color: orange;
+    
+}
+ */
+
+ /* .main{
+    position: relative;
+    height: 400px;
+    background-color:transparent;
+    width: 500px;
+    margin: 100px auto;
+}
+
+.card1,.card2,.card3,.card4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card1{
+    background: #bb0b9e;
+    left: 50px;
+    top: 150px;
+    z-index: -1;
+}
+
+.card2{
+    background: #2c1e6e;
+    left: 80px;
+    top: 120px;
+    z-index: -2;
+}
+
+.card3{
+    background: #b60f0f;
+    left: 110px;
+    top: 100px;
+    z-index: -3;
+}
+
+.card4{
+    background: #3fad14;
+    left: 140px;
+    top: 60px;
+    z-index: -4;
+}
+.b{
+    visibility: hidden;
+    
+}
+
+    
+
+p{
+    clear: right;
+    text-shadow:-2px -2px 1px red;
+} */
+/* .main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    row-gap: 40px;
+    gap: 40px;
+    
+}
+.box{
+    background-color:grey;
+    padding: 20px;
+    border: 2px solid black;
+
+} */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width:300px;
+    height:200px;
+    border-radius: 50%;
+    background-image:conic-gradient(circle,red 0%,red 25%,blue 25%,blue 50%,yellow 50%,yellow 75%,orange 75%,orange 100%);
+    
+
+}
+  
