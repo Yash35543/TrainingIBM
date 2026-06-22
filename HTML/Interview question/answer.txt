@@ -1,0 +1,327 @@
+HTML INTERVIEW QUESTIONS & SOLUTIONS (IN ORDER)
+
+1. How will you start a ordered list from 10 ?
+Use the start attribute: <ol start="10">.
+
+2. What input type will you use to upload a image ?
+<input type="file" accept="image/*">.
+
+3. Name any 5 Html5 tags
+<header>, <footer>, `<nav>`, <article>, and <video>.
+
+4. What is dns and when it come in picture
+Domain Name System. It acts as the internet's phonebook, translating human-friendly domain names (like google.com) into IP addresses the moment you type a URL into a browser.
+
+5. What is Markup
+A system of formatting and structuring text using tags (like <h1> or <p>) to instruct a browser on how to display content.
+
+6. SEO {Knowledge of basics}
+Search Engine Optimization. The practice of structurally optimizing web pages (using semantic tags, alt text, proper headers, and meta tags) to rank higher in search engine results.
+
+7. Inspect Elements
+A developer tool built into web browsers (usually opened with F12) used to view, test, and debug HTML, CSS, and JavaScript in real-time.
+
+8. Explain what is webpage designing
+The process of planning, creating, and establishing the visual appearance, user interface (UI), layout, and overall aesthetics of a page on the internet.
+
+9. How will u open another windows using anchor tag
+By adding the target="_blank" attribute: <a href="URL" target="_blank">Text</a>.
+
+10. what does viewport meta tag do
+It controls the page's dimensions and scaling on mobile device screens, making the webpage responsive (content="width=device-width, initial-scale=1.0").
+
+11. What are Attributes in html
+Special modifiers that provide extra information or properties about an HTML element, placed inside the opening tag (e.g., href in <a>).
+
+12. What is dns
+The Domain Name System, which translates human-readable domain names into computer-readable IP addresses.
+
+13. what is ip address
+Internet Protocol Address. A unique numerical label assigned to every device connected to a computer network to identify its location.
+
+14. what is localhost
+The default hostname pointing back to your local computer (loopback address, traditionally 127.0.0.1).
+
+15. HTML5 vs HTML4
+HTML5 introduced native audio/video playback, modern structural tags (<nav>, <header>), canvas graphics, local storage, and forms without relying on third-party plug-ins like Flash.
+
+16. what are semantic tags
+Tags that clearly communicate the purpose and meaning of their content to both the developer and the browser (e.g., <article>, <main>).
+
+17. what are the new features in HTML5?
+Semantic tags, native video/audio tags, <canvas>, SVG support, geolocation APIs, web storage (localStorage), and new form inputs (email, date).
+
+18. Difference between div and span
+<div> is a block-level element (starts on a new line, spans full width). <span> is an inline element (does not break lines, wraps only its immediate content).
+
+19. Difference between class and IDs
+An ID must be completely unique to a single element per page (id="main-nav"). A Class can be reused across multiple elements on the same page (class="btn").
+
+20. What are self closing tags
+Tags that do not enclose content and therefore do not require a separate closing tag. Examples include <img>, <br>, and <input>.
+
+21. How many types of headings are der ?How to decide which to use where
+There are 6 types (<h1> through <h6>). Decide their usage strictly hierarchically based on the structure and priority of the topic matter, not for text sizing.
+
+22. Difference between block and inline
+Block elements take up the full available horizontal width and start on a new line (e.g., <p>). Inline elements sit side-by-side with other content and only take up the width of their actual content (e.g., <strong>).
+
+23. Difference between em and strong
+<em> applies verbal emphasis (rendered visually in italics). <strong> signals strong importance or urgency (rendered visually in bold).
+
+24. What are attributes?
+Key/value properties specified within an opening tag to configure or provide metadata about an HTML element.
+
+25. Difference between HTML tags and elements
+A Tag is just the syntax opener/closer (<p> or </p>). An Element is the complete bundle consisting of the opening tag, the inner content, and the closing tag.
+
+26. Explain br tags
+The <br> tag forces a line break within text without starting a brand-new paragraph structure.
+
+27. What are semantic tags?
+Tags designed to inherently describe their internal content meaning (e.g., <aside>, <footer>) rather than acting as generic style-less placeholders.
+
+28. Write code to create an ordered list with roman numbers
+<ol type="I">
+  <li>Item One</li>
+</ol>
+
+29. Write code to create an unordered list with circle
+<ul style="list-style-type: circle;">
+  <li>Item One</li>
+</ul>
+
+30. Write code to create a link to https://www.prepbytes.com
+<a href="https://www.prepbytes.com">PrepBytes</a>
+
+31. Write a code to insert an image
+<img src="image.jpg" alt="Description of the image">
+
+32. Write html code to create a 2*2 table : Table columns should be name and salary , and provide two entries for this.
+<table border="1">
+  <tr><th>Name</th><th>Salary</th></tr>
+  <tr><td>John</td><td>$4000</td></tr>
+  <tr><td>Jane</td><td>$5000</td></tr>
+</table>
+
+33. Create a form contain input fields like name age email and contact
+<form>
+  Name: <input type="text"><br>
+  Age: <input type="number"><br>
+  Email: <input type="email"><br>
+  Contact: <input type="tel">
+</form>
+
+34. Create a table and explain how to acheive colspan
+Use the colspan attribute inside a <td> or <th> cell to make it stretch across multiple column segments horizontally.
+<table border="1">
+  <tr><td colspan="2">Spans 2 columns</td></tr>
+  <tr><td>Cell A</td><td>Cell B</td></tr>
+</table>
+
+35. Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two
+Difference: Radio buttons restrict selection to just one choice per group, while checkboxes allow selecting multiple separate parameters concurrently.
+Course: <input type="radio" name="course" value="MERN"> MERN
+        <input type="radio" name="course" value="MEAN"> MEAN<br>
+Tech:   <input type="checkbox" name="tech" value="HTML"> HTML
+        <input type="checkbox" name="tech" value="CSS"> CSS
+
+36. How many types of heading does an HTML contain?
+6 types (<h1> to <h6>).
+
+37. Which heading have highest priority and Least priority.
+<h1> has the highest content hierarchy priority; <h6> has the least.
+
+38. How to create a hyperlink in HTML?
+Use the anchor element: <a href="URL">Clickable Text</a>.
+
+39. Which HTML tag is used to display the data in the tabular form?
+The <table> element.
+
+40. Why do we use colgroup tag in table tag.
+To group structural columns together so CSS styles or attributes can be applied across whole columns cleanly without editing every distinct cell.
+
+41. What are some common lists that are used when designing a page?
+Ordered lists (<ol>), unordered lists (<ul>), and description lists (<dl>).
+
+42. Write a structure of definition list.
+<dl>
+  <dt>Term</dt>
+  <dd>Definition details go here.</dd>
+</dl>
+
+43. What does mean by of dl, dt and dd in definition list.
+<dl> = Description List (defines the whole list container).
+<dt> = Description Term (the name/word being defined).
+<dd> = Description Data (the corresponding definition or description details).
+
+44. What is the difference between HTML elements and tags?
+Tags are strictly individual code components (<p> or </p>). Elements represent the complete item layout inclusive of opening tags, nested content, and ending tags.
+
+45. What is semantic HTML?
+HTML markup structured intentionally with tags that inform the browser, assistive technologies, and crawlers what their baseline content context is.
+
+46. What is an image map?
+An image config file pairing map coordinates with links using <map> and <area>, converting individual areas of one static image into different custom links.
+
+47. How to insert a copyright symbol on a browser page?
+Use the built-in HTML character entity &copy; or &#169;.
+
+48. How to create a nested webpage in HTML?
+By embedding one webpage context cleanly within another via an iframe (<iframe>).
+
+49. What is use of Iframe tag. and How to create Iframe tag.
+Used to frame exterior webpages seamlessly within your active window. Created as: <iframe src="URL" title="description"></iframe>.
+
+50. In Iframe Which attributes are more impontant?
+The src attribute (specifying target window file link), alongside tracking values like width, height, and accessibility title.
+
+51. Does a hyperlink only apply to text?
+No, you can wrap a hyperlink around text, images, blocks, or any other layout container component.
+
+52. What is a style sheet?
+A file rule system (CSS) engineered to govern the dynamic layout, fonts, colors, spacing, and general aesthetic presentation of an HTML layout.
+
+53. Can you create a multi-colored text on a web page?
+Yes, by splitting distinct parts of text inside custom styled <span style="color:..."> tags.
+
+54. Is it possible to change the color of the bullet?
+Yes, by targeting the list marker component inside your CSS using the li::marker selector.
+
+55. Explain the layout of HTML?
+Modern layout designs coordinate structure horizontally and vertically using blocks like <header>, navigation links (<nav>), key main areas (<main>), sidebars (<aside>), and footer labels (<footer>).
+
+56. What is a marquee?
+An obsolete, non-standard tag (<marquee>) once used to forcibly scroll lines of text or graphics horizontally or vertically across a webpage screen.
+
+57. How to make a picture of a background image of a web page?
+Using CSS applied directly to your body container element: body { background-image: url('image.jpg'); }.
+
+58. How many tags can be used to separate a section of texts?
+Multiple structural blocks separate blocks of content, primarily <p>, <br>, <hr>, <div>, <section>, and <article>.
+
+59. What are empty elements?
+Elements that lack inner child context or accompanying text tags, ending self-sufficiently without closing strings (e.g., <hr>, <img />).
+
+60. What is the use of a span tag? Give one example.
+An inline styling hook to isolate text segments without creating new structural lines. Example: <p>Click <span style="color: blue;">now</span></p>.
+
+61. What is the use of an iframe tag?
+To display a secondary, completely self-contained foreign document environment inside your active presentation frame.
+
+62. What are the entities in HTML?
+Special character sequences beginning with & and ending with ; used to render layout syntax characters or obscure icons safely (e.g., &lt; for <).
+
+63. Why is a URL encoded in HTML?
+To accurately translate non-ASCII layouts or functional parameter characters into a web-safe % safe code array that can be sent securely over the internet.
+
+64. Does a <!DOCTYPE html> tag is a HTML tag?
+No, it is a document configuration string telling the compiler browser exactly how to process code specifications according to standard HTML5.
+
+65. What is the canvas element in HTML5?
+A graphics tag container (<canvas>) hosting pixel maps that allows developers to render 2D layouts, games, and script diagrams using JavaScript.
+
+66. What is SVG?
+Scalable Vector Graphics. An XML-based vector image formatting code layout that scales smoothly without losing resolution or turning blurry.
+
+67. What are the different new form element types in HTML 5?
+Elements like <datalist>, <output>, and <progress>.
+
+68. Is there any need to change the web browsers to support HTML5
+No, all modern internet web browser platforms naturally integrate native support for HTML5 out of the box.
+
+69. Which type of video formats are supported by HTML5?
+MP4, WebM, and Ogg.
+
+70. Is audio tag supported in HTML 5?
+Yes, via the native <audio> element.
+
+71. What is the difference between progress and meter tag?
+<progress> monitors task completion workflow progress (e.g., status bars). <meter> measures static point positions within fixed scales (e.g., drive storage).
+
+72. What is the use of figure tag in HTML 5?
+An organized semantic structural block containing standalone graphics components like code photos, structural illustrations, or data graphs.
+
+73. What is the use of figcaption tag in HTML 5?
+To define a clean text caption context nested inside a parent <figure> block component.
+
+74. What is button tag?
+A flexible interactive element (<button>) that executes actions or form submissions, and can comfortably wrap interior layout HTML (like icons or images).
+
+75. What is the use of details and summary tag?
+Creates a native open/close disclosure panel. Users click content within <summary> to collapse or display inner content inside <details>.
+
+76. What is datalist tag?
+Provides a list of autocomplete search suggestions inside an attached text <input> field.
+
+77. How are tags migrated from HTML4 to HTML5?
+By substituting older layout hooks (like <div id="footer">) directly with corresponding semantic alternatives (like <footer>).
+
+78. If I do not put <!DOCTYPE html> will HTML 5 work?
+Browsers will load it, but force a "Quirks Mode" rendering system that often breaks standard CSS rules and advanced script layouts.
+
+79. What is the use of the required attribute in HTML5?
+A built-in constraint validation parameter that stops form submission until that specific field contains data inputs.
+
+80. What are the new <input> types for form validation in HTML5?
+Types like email, url, tel, number, and date.
+
+81. HTML is case-sensitive or not?
+No, it is case-insensitive (though using lowercase tags is standard developer convention).
+
+82. When are comments used in HTML?
+To embed inline source notes for software developers or to temporarily isolate chunks of code from compiling. Written as .
+
+83. What are Attributes and how do you use them?
+Key/value metadata pairings set inside an opening element tag to fine-tune how that specific tag works or links (e.g., <input type="checkbox">).
+
+84. What do you mean by for attributes in label tag.
+Links a standard descriptive <label> block directly to a field component matching its id, increasing click boundaries and screen-reader accessibility.
+
+85. How to create a Hyperlink in HTML?
+Using the anchor structural element format: <a href="target-url">Label Text</a>.
+
+86. Name some common lists that are used when designing a page.
+Ordered lists (<ol>), unordered bullet lists (<ul>), and definition layout lists (<dl>).
+
+87. Which attributes is required in input tag.
+Technically, no attributes are structurally required just to render a basic text input, but the type attribute defines what it does, and a name attribute is necessary to pass details during form submissions.
+
+88. What do you mean by MARKUP language and hypertext in HTML?
+Hypertext means interactive system text references that jump across pages using links. Markup denotes organizing raw lines using tags to define baseline code relationships.
+
+89. How are active links different from normal links?
+A normal link is unclicked or visited. An active link tracks the explicit momentary status when a user holds their click directly down on the link element.
+
+90. What happens if there is no text between the tags? Does this affect the display of the HTML file?
+Generally, nothing prints out visually unless the targeted blank tag holds active layout parameters or spacing constraints enforced by CSS classes.
+
+91. What are the limits of the text field size?
+Limited using size (which sets physical visual width in characters) and maxlength (which enforces the absolute maximum character input cutoff count).
+
+92. What is the relationship between the border and rule attributes?
+The legacy border attribute creates a perimeter outline box frame around the table structure, whereas the old rules attribute determines if internal cell division bars draw lines between rows/columns.
+
+93. What is Cell Spacing and Cell Padding?
+Cell Padding defines the empty buffer space between text content and its surrounding border inside a cell. Cell Spacing manages the gap separating individual cell borders from each other.
+
+94. What is difference between HTML and XHTML?
+HTML allows flexible parsing rules (tags can skip closing). XHTML stems directly from XML specifications, mandating lowercase element strings, strict tag termination, and perfectly nested syntax.
+
+95. How many types of CSS can be included in HTML?
+3 types: Inline styles (using element attributes), Internal styles (using <style> headers), and External sheets (referencing an outside .css` asset).
+
+96. What are logical and physical tags in HTML?
+Physical tags explicitly instruct a browser on visual styling rules (e.g., <i> for italic). Logical tags define context importance (e.g., <strong> for emphasized), delegating final presentation styles to the browser or CSS.
+
+97. How can you apply JavaScript to a web page?
+By setting up a <script> element containing active Javascript code internally, or by pulling in external scripts via <script src="app.js"></script>.
+
+98. How to make you radio button and check-box. and how to implement this??
+Implement using <input type="radio"> and <input type="checkbox">. Tie multiple radio button options under identical name="groupname" attributes to restrict selections to one at a time.
+
+99. What is main reason or main advantage of label tag?
+It expands the user's interactive hit boundary (clicking the descriptive text text automatically clicks its paired input target) and ensures screen reader accessibility.
+
+100. How will you implement when you click on submit button your whole data comes in URL form?
+Configure the wrapper form container element method attribute explicitly as a GET function: <form method="GET">.
